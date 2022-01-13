@@ -6,7 +6,7 @@ using System.Text;
 namespace Chapter02
 {
     [Description("Listing 2.14")]
-    class IteratorBlockWithFinally
+    internal static class IteratorBlockWithFinally
     {
         internal static IEnumerable<string> Iterator()
         {
